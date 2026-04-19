@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
 ？这不是misc吗，怎么reverse了
 
-```
+```python
 # unzip attachments.zip
 import os
 
