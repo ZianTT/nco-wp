@@ -1,0 +1,4 @@
+小小鹦鹉学说话 ~
+flag 以 NCO26{ 开头
+
+Challenge Type: DynamicContainer

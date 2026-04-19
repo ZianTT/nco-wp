@@ -1,0 +1,3 @@
+听说学校里新引进了一个扭蛋机，从扭蛋中开出 flag 的同学会有额外奖励！注意 flag 以 NCO26{ 开头哦
+
+Challenge Type: DynamicContainer

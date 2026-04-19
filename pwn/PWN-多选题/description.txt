@@ -1,0 +1,15 @@
+在现代操作系统的二进制程序漏洞防御与利用（Pwn）中，引入了多种安全机制。同时，攻击者也发展出了相应的绕过技术。关于这些基础安全机制及其相关的利用技术，以下说法正确的选项是？（请回答你认为正确的选项前的大写字母，如 AB, ABC）
+
+A. NX (No-eXecute) / DEP 防护机制的原理是将数据所在内存页（如栈区、堆区）标识为不可执行。为了绕过该机制，攻击者通常会使用 ROP (Return-Oriented Programming) 或 Ret2libc 技术。
+
+B. Stack Canary 是一种专门用来防御格式化字符串漏洞（Format String Vulnerability）的安全机制
+
+C. ASLR (Address Space Layout Randomization) 会在程序每次加载运行时，随机化栈、堆、共享库（如 libc）等内存区域的基地址，从而使得攻击者难以预测目标代码或数据的绝对地址。
+
+D. Ret2libc 攻击的核心思想是：攻击者将精心构造的恶意 Shellcode 注入到程序的栈空间中，并控制程序跳转到该栈空间执行，从而获取系统控制权。
+
+FLAG形式为正确选项按字母序升序排列得到的大写字母列表，例如：AD，注意：本题只有一次答题机会！请谨慎作答！
+
+Challenge Type: StaticAttachment 
+
+this challenge has no attachment

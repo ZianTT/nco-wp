@@ -1,0 +1,3 @@
+一段被加密的LLM对话上下文。
+
+Challenge Type: StaticAttachment

@@ -1,0 +1,7 @@
+小 Z 拿到了一个 flag 校验器 `bitdance`，但是他不知道正确的 flag。
+
+请分析校验器程序逻辑，并恢复正确的 flag。
+
+flag 格式为 `NCO26{.*}`。
+
+Challenge Type: StaticAttachment

@@ -1,0 +1,12 @@
+在一个C类网络中，默认的子网掩码是？
+
+A. 255.0.0.0
+B. 255.255.0.0
+C. 255.255.255.255
+D. 255.255.255.0
+
+FLAG形式为正确选项的单一大写字母，例如：A，只有一次提交机会，请谨慎作答！
+
+Challenge Type: StaticAttachment 
+
+this challenge has no attachment

@@ -1,0 +1,7 @@
+小 Z 拿到了一份名为 `attachment.zip` 的附件，但无论怎么点开都只会看到另一个 zip。
+
+你需要找到最深处隐藏的内容，并恢复出最终的 flag。
+
+flag 格式为 `NCO26{.*}`。
+
+Challenge Type: StaticAttachment

@@ -1,0 +1,7 @@
+小 Z 拿到了一个可执行文件 `traceweaver`，程序会读取你输入的 flag 并进行校验。
+
+请绕过干扰，还原真实校验逻辑，找出正确的 flag。
+
+flag 格式为 `NCO26{.*}`。
+
+Challenge Type: StaticAttachment

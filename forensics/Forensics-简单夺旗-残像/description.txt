@@ -1,0 +1,5 @@
+小明发了张照片发给你，但你总觉得哪里不太对劲……
+
+本题不限制答题次数
+
+Challenge Type: StaticAttachment

@@ -1,0 +1,27 @@
+当程序将数据写入超出已分配内存的边界时，就会发生缓冲区溢出等内存漏洞。这可能导致程序行为异常、内存损坏，甚至执行恶意代码。下面的 C 语言程序可能存在缓冲区溢出漏洞（请回答对应选项的大写字母）：
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char password[10];
+    printf("Enter your password: ");
+    scanf("%s", password); 
+    
+    printf("Password saved.\n");
+    return 0;
+}
+```
+
+编译并运行该程序后，以下哪个输入最有可能导致“stack smashing detected”（检测到堆栈粉碎）或“segmentation fault”（段错误）报错？
+
+A. 12345678
+B. "admin"
+C. "SuperSecretPassword123"
+D. 以上答案都不会导致该错误。
+
+FLAG形式为正确选项的单一大写字母，例如：A，只有一次提交机会，请谨慎作答！
+
+Challenge Type: StaticAttachment 
+
+this challenge has no attachment

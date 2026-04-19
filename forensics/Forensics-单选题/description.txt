@@ -1,0 +1,15 @@
+一个未知文件的内容以如下十六进制数据“50 4B 03 04”开头，其文件类型可能是：
+
+A. PNG图片
+
+B. BMP图片
+
+C. ZIP压缩包
+
+D. GZIP压缩包
+
+FLAG形式为正确选项的单一大写字母，例如：A，只有一次提交机会，请谨慎作答！
+
+Challenge Type: StaticAttachment 
+
+this challenge has no attachment

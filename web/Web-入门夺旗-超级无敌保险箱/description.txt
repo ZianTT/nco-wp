@@ -1,0 +1,5 @@
+哈里森设计了一个保险箱据说巨保险，你能尝试获得其中的FLAG吗
+
+Challenge Type: DynamicContainer 
+
+this challenge has no attachment

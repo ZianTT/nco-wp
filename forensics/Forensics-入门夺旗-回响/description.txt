@@ -1,0 +1,7 @@
+我们截获了一段神秘的音频信号，里面似乎藏着某种古老的通信方式……你能破译它吗？
+
+提示：flag 格式为 NCO26{...}
+
+本题不限制答题次数
+
+Challenge Type: StaticAttachment

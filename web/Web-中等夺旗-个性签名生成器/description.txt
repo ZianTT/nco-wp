@@ -1,0 +1,5 @@
+Miss Yang让AI帮他写了一个炫酷的英文签名生成器，请你帮她看看有没有安全问题
+
+Challenge Type: DynamicContainer 
+
+this challenge has no attachment

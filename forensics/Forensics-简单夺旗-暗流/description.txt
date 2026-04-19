@@ -1,0 +1,5 @@
+公司最近发现有敏感数据被泄露，IT部门导出了一份嫌疑人的上网流量记录。你能从中找到线索吗？
+
+本题不限制答题次数
+
+Challenge Type: StaticAttachment

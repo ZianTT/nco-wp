@@ -1,0 +1,7 @@
+校园表白墙最近被嘉豪攻击了，请你分析他是怎么做到的
+
+注意：/steal 会记录所有访问该页面的请求参数数据
+
+Challenge Type: DynamicContainer 
+
+this challenge has no attachment

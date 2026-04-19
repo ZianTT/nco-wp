@@ -1,0 +1,4 @@
+快来制作一只史莱姆吧！
+flag 以 NCO26{开头
+
+Challenge Type: DynamicContainer

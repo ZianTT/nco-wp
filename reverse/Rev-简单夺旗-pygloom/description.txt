@@ -1,0 +1,7 @@
+小 Z 拿到了一份看起来还能正常运行的 `attachment.py`，但它显然不是开发者原本写下来的样子。
+
+你的目标是分析附件中的混淆 Python 代码，恢复出最终的 flag。
+
+flag 格式为 `NCO26{.*}`。
+
+Challenge Type: StaticAttachment

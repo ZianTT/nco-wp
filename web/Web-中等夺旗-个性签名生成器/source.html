@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>超级安全的保险箱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a2e;
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            display: flex; justify-content: center; align-items: center;
+            min-height: 100vh;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        .container {
+            text-align: center;
+            border: 2px solid #00ff88;
+            padding: 60px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0,255,136,0.3);
+            max-width: 600px;
+        }
+        h1 { font-size: 2em; margin-bottom: 20px; }
+        .lock { font-size: 80px; margin: 20px 0; }
+        p { margin: 10px 0; line-height: 1.8; font-size: 1.1em; }
+        .warning {
+            color: #ff4444;
+            border: 1px solid #ff4444;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+        .hint {
+            color: #666;
+            font-size: 0.8em;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lock">&#128274;</div>
+        <h1>超级安全的保险箱 v3.0</h1>
+        <p>本系统已部署最先进的前端防护技术</p>
+        <p>任何试图查看源代码的行为都将被阻止！</p>
+        <div class="warning">
+            &#9888; 警告：F12、右键、Ctrl+U 均已禁用 &#9888;<br>
+            你永远无法看到隐藏在源代码中的秘密！
+        </div>
+        <p class="hint">Flag 就藏在这个页面中，你能找到吗？</p>
+    </div>
+
+    <!--
+        =============================================
+        开发者备忘录 (千万别让用户看到！)
+        =============================================
+        管理员密码: admin/passw0rd!
+        FLAG: NCO26{xxxxxxxxx}
+        TODO: 记得把这个注释删掉！！！
+        =============================================
+    -->
+
+    <script>
+        // 禁用右键菜单
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('\u21d2 右键已被禁用！别想偷看源码！');
+        });
+
+        // 禁用 F12 和各种开发者工具快捷键
+        document.addEventListener('keydown', function(e) {
+            // F12
+            if (e.key === 'F12') {
+                e.preventDefault();
+                alert('\u21d2 F12 已被禁用！放弃吧！');
+                return false;
+            }
+            // Ctrl+Shift+I (开发者工具)
+            if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+                e.preventDefault();
+                alert('\u21d2 开发者工具已被禁用！');
+                return false;
+            }
+            // Ctrl+Shift+J (控制台)
+            if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+                e.preventDefault();
+                alert('\u21d2 控制台已被禁用！');
+                return false;
+            }
+            // Ctrl+U (查看源码)
+            if (e.ctrlKey && e.key === 'u') {
+                e.preventDefault();
+                alert('\u21d2 查看源码已被禁用！');
+                return false;
+            }
+            // Ctrl+S (保存网页)
+            if (e.ctrlKey && e.key === 's') {
+                e.preventDefault();
+                alert('\u21d2 保存网页已被禁用！');
+                return false;
+            }
+        });
+
+        // 检测开发者工具是否打开 (通过窗口大小变化)
+        setInterval(function() {
+            if (window.outerHeight - window.innerHeight > 200 ||
+                window.outerWidth - window.innerWidth > 200) {
+                document.body.innerHTML = '<h1 style="color:red;text-align:center;margin-top:40vh;">检测到开发者工具！页面已销毁！</h1>';
+            }
+        }, 1000);
+
+        // 禁用拖拽选择
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+        });
+
+        // 禁用拖拽
+        document.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+        });
+
+        console.log('%c⚠️ 警告！', 'color: red; font-size: 30px; font-weight: bold;');
+        console.log('%c此浏览器功能专为开发人员设计。如果有人告诉您将某些内容复制粘贴到这里...那他可能是对的 :)', 'font-size: 14px;');
+    </script>
+</body>
+</html>
